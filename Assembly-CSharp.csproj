@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Player\PlayerInputHandler.cs" />
     <Compile Include="Assets\Player\CameraHandler.cs" />
+    <Compile Include="Assets\Enemy\General\Enemy_detection.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

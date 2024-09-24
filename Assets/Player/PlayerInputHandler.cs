@@ -9,7 +9,6 @@ public class PlayerInputHandler : MonoBehaviour{
     public float move_speed = 10;
     private Rigidbody2D rigid_body_2D;
     private Vector2 diraction;
-
     public InputActionReference move;
 
     private void Awake(){
