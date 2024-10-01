@@ -346,9 +346,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Enemy/General/Enemy_detection.cs"
-"Assets/Player/CameraHandler.cs"
-"Assets/Player/PlayerInputHandler.cs"
+"Assets/Attacks/AttackBase.cs"
+"Assets/Attacks/BulletBehavior.cs"
+"Assets/Attacks/Player/General/SimpleGuitar.cs"
+"Assets/Attacks/Player/PlayerAttackHandler.cs"
+"Assets/other/Constants.cs"
+"Assets/other/Utility.cs"
+"Assets/Player/PlayerInput/CameraHandler.cs"
+"Assets/Player/PlayerInput/PlayerInputHandler.cs"
 -langversion:9.0
 /deterministic
 /optimize+

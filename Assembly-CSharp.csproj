@@ -62,9 +62,14 @@
     <Analyzer Include="C:\Users\vosko\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.4\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Player\PlayerInputHandler.cs" />
-    <Compile Include="Assets\Player\CameraHandler.cs" />
-    <Compile Include="Assets\Enemy\General\Enemy_detection.cs" />
+    <Compile Include="Assets\other\Utility.cs" />
+    <Compile Include="Assets\Player\PlayerInput\PlayerInputHandler.cs" />
+    <Compile Include="Assets\Attacks\AttackBase.cs" />
+    <Compile Include="Assets\Attacks\BulletBehavior.cs" />
+    <Compile Include="Assets\Attacks\Player\General\SimpleGuitar.cs" />
+    <Compile Include="Assets\Attacks\Player\PlayerAttackHandler.cs" />
+    <Compile Include="Assets\other\Constants.cs" />
+    <Compile Include="Assets\Player\PlayerInput\CameraHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -891,6 +896,14 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.43f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj" />
@@ -909,12 +922,10 @@
     <ProjectReference Include="Unity.InputSystem.ForUI.csproj" />
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj" />
-    <ProjectReference Include="UnityEditor.UI.csproj" />
     <ProjectReference Include="Unity.InputSystem.csproj" />
     <ProjectReference Include="Unity.Rider.Editor.csproj" />
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj" />
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj" />
-    <ProjectReference Include="UnityEngine.UI.csproj" />
     <ProjectReference Include="Unity.VisualScripting.State.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Core.csproj" />
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj" />
